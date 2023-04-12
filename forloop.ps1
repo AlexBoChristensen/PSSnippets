@@ -1,5 +1,5 @@
-for ($counter = 1; $counter -le 100; $counter++ )
+for ($i = 1; $i -le 100; $i++ )
 {
 		# ADD YOUR CODE HERE
-    Write-Progress -Activity "Update Progress" -Status "$counter% Complete:" -PercentComplete $counter;
+    Write-Progress -Activity "Update Progress" -Status "$i% Complete:" -PercentComplete $i;
 }
